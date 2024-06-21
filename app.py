@@ -59,6 +59,7 @@ def recognize_speech(audio_file_path):
 @app.route('/')
 def index():
     return render_template('index.html')
+    return jsonify({"message": "Hello from Flask on Render!"})
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
@@ -95,5 +96,6 @@ def download_file(filename):
     return send_from_directory('uploads', filename)
 
 if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
     os.makedirs('uploads', exist_ok=True)
     app.run(debug=True)
