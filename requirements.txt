@@ -4,7 +4,7 @@ itsdangerous==2.2.0
 Jinja2==3.1.4
 MarkupSafe==2.1.5
 moviepy==1.0.3
-numpy==2.0.0
+numpy
 pydub==0.25.1
 vosk==0.3.45
 Werkzeug==3.0.3
