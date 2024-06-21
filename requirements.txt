@@ -8,3 +8,4 @@ numpy
 pydub==0.25.1
 vosk==0.3.45
 Werkzeug==3.0.3
+pytest
