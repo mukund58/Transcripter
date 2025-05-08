@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # Transcripter
 
 A simple Flask web application for converting video or audio files into text.
@@ -41,5 +41,5 @@ Contributions are welcome! Feel free to submit issues or create pull requests.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
-```
+
 
